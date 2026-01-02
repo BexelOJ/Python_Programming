@@ -3,11 +3,11 @@ def is_leap(year):
     
     # Write your logic here
     if year % 4 != 0:
-        return False  # Not divisible by 4  not a leap year
+        return False  # Not divisible by 4  : not a leap year
     elif year % 100 != 0:
-        return True   # Divisible by 4, not by 100  leap year
+        return True   # Divisible by 4, not by 100 : leap year
     elif year % 400 == 0:
-        return True   # Divisible by 100 and 400  leap year
+        return True   # Divisible by 100 and 400 : leap year
     else:
         return False
 

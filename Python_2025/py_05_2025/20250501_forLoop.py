@@ -1,7 +1,7 @@
 ############################################
 # for loop
 for i in range(10): # default starts from 0, ends at 9
-    print(i, end=' ')
+    print(i, end=' ') # end='\n\n' prints a new line
 print()  # print a new line
 
 # for loop
@@ -32,10 +32,11 @@ for y in t:
 print()  # print a new line
 
 d = {1: 'one', 2: 'two', 3: 'three'} # dictionary
-for key in d:
-    print(key, end=' ')
+#for key in d:
+#    print(d[key], end=' ')
 print()  # print a new line
-
+print(d.values(), end = "\n\n")
+print(d.items(), end='\n\n')
 ############################################
     
     

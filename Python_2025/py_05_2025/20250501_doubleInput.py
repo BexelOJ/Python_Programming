@@ -1,0 +1,13 @@
+n=input()
+print(n)
+print(type(n), end="\n\n")
+#print()
+x=int(n)
+print(x)
+print(type(x), end="\n\n")
+#print()
+y=float(n)
+print(y)
+print(type(y), end="\n\n")
+#print()
+
