@@ -1,0 +1,14 @@
+[Unit]
+Description=LED Blink and Buzzer Python Service
+After=network.target
+
+[Service]
+Type=simple
+User=exin
+WorkingDirectory=/home/exin/Workspace/Python/Python_2025/py_01_2025
+ExecStart=/usr/bin/python3 /home/exin/Workspace/Python/Python_2025/py_01_2025/20250101_ledBlink.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

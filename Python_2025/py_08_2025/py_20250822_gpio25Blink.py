@@ -12,9 +12,9 @@ print("Blinking LED on GPIO 25. Press Ctrl+C to stop.")
 try:
     while True:
         GPIO.output(25, GPIO.HIGH)  # LED ON
-        time.sleep(5)               # 1 second
+        time.sleep(1)               # 1 second
         GPIO.output(25, GPIO.LOW)   # LED OFF
-        time.sleep(5)               # 1 second
+        time.sleep(1)               # 1 second
 
 except KeyboardInterrupt:
     print("\nExiting program...")
