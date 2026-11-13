@@ -1,0 +1,233 @@
+------------------------------------------------------------
+1. Built-in data structures:
+
+These are the fundamental Python data structures.
+
+No.	Data structure - Python type - Mutable?
+
+1	Integer - int - No
+2	Floating point - float - No
+3	Boolean - bool - No
+4	String - str - No
+5	List - list - Yes
+
+6	Tuple - tuple - No
+7	Set - set - Yes
+8	Frozen Set - frozenset - No
+9	Dictionary - dict - Yes
+10	Bytes - bytes - No
+
+11	Byte Array - bytearray - Yes
+12	Range - range - No
+
+Note: int, float, and bool are scalar types rather than 
+conventional data structures. 
+They are included for completeness.
+
+------------------------------------------------------------
+2. Specialized data structures – Python Standard Library:
+
+Python provides several additional data structures 
+through built-in modules.
+
+No.	Data structure - Module - Purpose
+
+1	Dynamic Array - array - Typed arrays
+2	Double-ended Queue - collections.deque - Queue and deque
+3	Counter - collections.Counter - Frequency counting
+4	Ordered Dictionary - collections.OrderedDict - Ordered key-value storage
+5	Default Dictionary - collections.defaultdict - Dictionary with default values
+
+6	Named Tuple - collections.namedtuple - Named fields in tuples
+7	Chain Map - collections.ChainMap - Multiple dictionary views
+8	Heap / Priority Queue - heapq - Priority-based operations
+9	Queue - queue.Queue - Thread-safe FIFO
+10	LIFO Queue - queue.LifoQueue - Thread-safe stack
+
+11	Priority Queue - queue.PriorityQueue - Thread-safe priority queue
+12	Simple Queue - queue.SimpleQueue - Simplified thread-safe FIFO
+13	Binary Search - bisect - Sorted sequence operations
+
+------------------------------------------------------------
+3. Abstract data structures to implement yourself:
+
+These are particularly important for understanding 
+algorithms and data structure internals.
+
+No.	Data structure - Implementation approach
+
+1	Static Array - Fixed-size storage
+2	Dynamic Array - Resizable array
+3	Singly Linked List - Nodes and pointers/references
+4	Doubly Linked List - Previous and next references
+5	Circular Linked List - Circular node connections
+
+6	Stack - LIFO
+7	Queue - FIFO
+8	Circular Queue - Circular FIFO
+9	Deque - Double-ended queue
+10	Priority Queue - Heap
+
+11	Binary Tree - Nodes with up to two children
+12	Binary Search Tree - Ordered binary tree
+13	AVL Tree - Self-balancing BST
+14	Red-Black Tree - Self-balancing BST
+15	B-Tree - Multiway search tree
+
+16	Trie - Prefix tree
+17	Graph - Vertices and edges
+18	Directed Graph - Directed edges
+19	Weighted Graph - Weighted edges
+20	Hash Table - Hash-based storage
+
+21	Disjoint Set / Union-Find - Connected components
+22	Segment Tree - Range queries
+23	Fenwick Tree - Binary indexed tree
+24	Skip List - Probabilistic ordered structure
+
+------------------------------------------------------------
+4. Suggested learning sequence:
+
+I recommend following this order for your Python DS repository.
+Python Data Structures Roadmap
+
+1. Fundamentals:
+   
+   int, float, bool, str, bytes, bytearray
+
+2. Linear Data Structures:
+   
+   Array → List → Tuple → Linked List → Stack → Queue → Deque
+
+3. Hash-based Structures
+   
+   Dictionary → Set → Frozen Set → Hash Table
+
+4. Tree Structures
+   
+   Binary Tree → BST → AVL → Red-Black Tree → B-Tree → Trie
+
+5. Heap Structures
+   
+   Min Heap → Max Heap → Priority Queue
+
+6. Graph Structures
+   
+   Graph → Directed Graph → Weighted Graph → Graph Traversals
+
+7. Advanced Structures
+   
+   Union-Find → Segment Tree → Fenwick Tree → Skip List
+
+------------------------------------------------------------
+5. How we should implement each data structure:
+
+I suggest maintaining the same practical 
+learning methodology across C, Rust, Ada and Python.
+
+For each structure:
+
+1. Definition and purpose.
+2. Internal memory representation.
+3. Python built-in support, if available.
+4. Implementation from scratch.
+5. Operations and their time complexity.
+6. Complete Python program.
+7. Test cases and expected output.
+8. Real-world applications.
+
+One important learning distinction: 
+We should implement structures like 
+Linked Lists, 
+Binary Search Trees and Heaps ourselves, 
+even though Python offers convenient built-in alternatives.
+
+That will help you understand the actual algorithms 
+rather than simply learning Python syntax.
+
+We can start with Python Array, 
+then proceed to Slice, List and the 
+remaining structures systematically.
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+
