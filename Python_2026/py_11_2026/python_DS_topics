@@ -1,4 +1,4 @@
-------------------------------------------------------------
+-----------------------------------------------------
 1. Built-in data structures:
 
 These are the fundamental Python data structures.
@@ -24,7 +24,7 @@ Note: int, float, and bool are scalar types rather than
 conventional data structures. 
 They are included for completeness.
 
-------------------------------------------------------------
+-----------------------------------------------------
 2. Specialized data structures – Python Standard Library:
 
 Python provides several additional data structures 
